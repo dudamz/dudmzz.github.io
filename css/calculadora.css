@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', Arial, sans-serif;
+}
+
+body {
+    background-color: rgb(240, 230, 216);
+    color: #fff;
+}
+
+.calculadora {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(172, 89, 11);
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+    text-align: center;
+    border: 5px solid rgb(114, 69, 18); 
+}
+
+h1 {
+    color: rgb(114, 69, 18);
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+#resultado {
+    background-color: #ffffff;
+    width: 215px;
+    height: 45px;
+    margin: 5px;
+    font-size: 30px;
+    color: black;
+    text-align: right;
+    padding: 10px;
+    border-radius: 8px;
+    border: 2px solid rgb(114, 69, 18); 
+}
+
+table {
+    margin: 0 auto;
+}
+
+.botao {
+    width: 60px;
+    height: 60px;
+    font-size: 28px;
+    margin: 5px;
+    background-color: rgb(114, 69, 18);
+    color: #fff;
+    border: 2px solid rgb(114, 69, 18); 
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.1s ease;
+}
+
+.botao:hover {
+    background-color: rgb(31, 31, 31);
+}
+
+.botao:active {
+    transform: scale(0.95);
+}
+
+.voltar-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: rgb(172, 89, 11);
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border: 2px solid rgb(114, 69, 18); 
+}
+
+.voltar-button:hover {
+    background-color: rgb(114, 69, 18);
+}
